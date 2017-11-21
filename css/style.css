@@ -1,0 +1,527 @@
+@charset "utf-8";
+body {
+    background-color: wheat;
+}
+
+@font-face {
+    font-family: mount;
+    src: url(font/mount.ttf)
+}
+
+.navbar {
+    background-color: #CE2B37;
+    border: 0px;
+}
+
+.navbar .navbar-brand {
+    font-family: mount;
+    color: white;
+    font-size: 1.2em;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 5px;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+border-bottom: solid 3px rgba(255,255,255,1);
+color:rgba(255,255,255,.5);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: rgba(255, 255, 255, 1);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-default .navbar-toggle .icon-bar:hover {
+    background-color: #CB0000;
+}
+
+.container-fluid {}
+
+.box-header {
+    position: relative;
+    top: 40px;
+    height: 500px;
+    width: 100%;
+   background-image: url(../images/owen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    border-bottom: 4px solid red;
+}
+
+.box-header-1 {
+    position: absolute;
+    top: 55px;
+    height: 300px;
+    width: 20%;
+    left: 75%;
+    padding: 0px;
+    transform: rotateZ(-30deg);
+    text-align: center;
+    font-family: "mount";
+    color: white;
+}
+
+.box-h1 {
+    position: relative;
+    top: 200px;
+    height: 300px;
+    width: 90%;
+    left: 5%;
+    text-align: center;
+    color: white;
+}
+
+.box-h1 h1 {
+    font-family: "mount";
+    font-size: 150px;
+    color: #CE2B37;
+    text-shadow: 3px 3px rgba(255,255,255,1);
+}
+
+.box-h1 p {
+    position: relative;
+    left: 160px;
+    top: -20px;
+    font-family: "mount";
+    font-size: 35px;
+}
+
+.box-h2 {
+    position: relative;
+    top: 200px;
+    width: 90%;
+    left: 5%;
+    text-align: center;
+    color: white;
+}
+
+.box-h3 {
+    position: relative;
+    height: 200px;
+    top: 50px;
+    width: 100%;
+    background-color: rgba(45, 57, 74, 1);
+    text-align: center;
+    border-bottom: 4px solid red;
+}
+
+.box-h3 h1 {
+    position: relative;
+    top: 30px;
+    font-family: "mount";
+    font-size: 4em;
+    color: #CE2B37;
+}
+
+.box-h3 p {
+    position: relative;
+    top: 40px;
+    font-family: "mount";
+    font-size: 1.66em;
+    color: white;
+}
+
+.box-face {
+    position: fixed;
+    left: 5%;
+    top: 37%;
+    z-index: 999;
+}
+
+.box-bck {
+    position: absolute;
+    top: 2100px;
+    height: 17500px;
+    width: 56%;
+    background-color: rgba(45, 57, 74, 1);
+    left: 22%;
+    right: auto;
+    z-index: -999;
+}
+
+.linie {
+    position: relative;
+    left: 400px;
+    top: -120px;
+    height: 3px;
+    width: 400px;
+    background-color: rgba(100, 100, 100, 1);
+    border-radius: 70%;
+}
+
+.box-000 {
+    position: fixed;
+    left: 5%;
+    top: 31.5%;
+    height: 5%;
+    width: 93px;
+    background-color: #CE2B37;
+    z-index: 999;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.box-000 img {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: auto;
+    height: 60%;
+    width: auto;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-000 h2 {
+    font-family: "Open-Sans";
+    line-height: 60px;
+}
+
+.row {
+    margin-top: 100px;
+}
+
+.col-sm-6 {
+    padding: 0px;
+    top: 100px;
+}
+
+.box-100 {
+    position: relative;
+    top: 40px;
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0, 146, 70, .8);
+}
+
+.box-100 img {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    top: 5px;
+    box-shadow: 2px 2px 15px 3px rgba(0, 0, 0, .5);
+    border: 5px solid #CE2B37;
+}
+
+.box-110 {
+    position: relative;
+    top: -90px;
+    height: 350px;
+    width: 70%;
+    background-color: white;
+    box-shadow: 2px 2px 15px 3px rgba(0, 0, 0, .5);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Open-Sans";
+    text-align: center;
+    color: #CE2B37;
+    font-size: 30px;
+    border: 5px solid #CE2B37;
+}
+
+@media screen and (max-width:768px) {
+    .box-110 {
+        width: 100%;
+    }
+}
+
+.box-111 {
+    position: relative;
+    top: 3%;
+    left: 5%;
+    height: 50px;
+    width: 125px;
+    background-color: #CE2B37;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    font-size: 0.6em;
+    padding-top: 11px;
+    box-shadow: 2px 2px 15px 3px rgba(0, 0, 0, .5);
+}
+
+.box-112 {
+    position: relative;
+    left: 5%;
+    top: 68%;
+    height: 50px;
+    width: 125px;
+    background-color: #CE2B37;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 15px 3px rgba(0, 0, 0, .5);
+    color: white;
+    font-size: 0.6em;
+    padding-top: 11px;
+}
+
+.box-113 {
+    position: absolute;
+    left: auto;
+    right: 5%;
+    bottom: 2%;
+    height: 50px;
+    width: 125px;
+    background-color: #CE2B37;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 15px 3px rgba(0, 0, 0, .5);
+    color: white;
+    font-size: 0.6em;
+    padding-top: 11px;
+}
+
+.box-114 {
+    position: absolute;
+    top: 7%;
+    right: 5%;
+    background-image: url(../images/mis/basil.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 39%;
+    width: 39%;
+}
+
+.box-115 {
+    position: absolute;
+    top: 25%;
+    width: 80%;
+    left: 10%;
+    background-color: #CE2B37;
+    height: 50%;
+    box-shadow: 2px 2px 15px 3px rgba(0, 0, 0, .5);
+    color: white;
+    font-size: 0.65em;
+    font-family: "open-sans";
+    padding: 2%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.box-120 {
+    position: relative;
+    top: -350px;
+    height: 80px;
+    width: 90%;
+    left: 5%;
+    background-color: white;
+    border: 5px solid #CE2B37;
+    font-family: "mount";
+    box-shadow: 2px 2px 15px 3px rgba(0, 0, 0, .5);
+    text-align: center;
+    color: #CE2B37;
+}
+
+.box-120 h2 {
+    font-size: 2.5em;
+    padding-top: 0px;
+}
+
+.box-120 img {
+    position: relative;
+    top: -50px;
+    height: auto;
+    width: 25%;
+}
+
+.box-120 i {
+    position: relative;
+}
+
+.flag {
+    position: relative;
+    top: 50px;
+    height: 75px;
+    width: 80%;
+    left: 10%;
+    background-color: #CE2B37;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    box-shadow: 2px 2px 25px 1px rgba(0, 0, 0, .6);
+}
+
+.flag h2 {
+    font-family: "mount", "sans-serif";
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.col-lg-2 {
+    position: relative;
+    top: 40px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 146, 70, .8);
+    text-decoration: none;
+    margin: 0px;
+    padding-top: 6px;
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 40px;
+}
+
+.col-lg-2>a {
+    text-decoration: none;
+    color: white;
+}
+
+.col-lg-2 p {
+    font-family: "mount", "sans-serif";
+    font-size: 18px;
+    padding-top: 0px;
+    color: white;
+}
+
+.col-lg-3 {
+    position: relative;
+    top: -50px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 146, 70, 1);
+    text-decoration: none;
+    margin: 0px;
+    padding-top: 6px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.col-lg-3>a {
+    text-decoration: none;
+    color: white;
+}
+
+.col-lg-3 {
+    font-family: "mount", "sans-serif";
+    font-size: 18px;
+    padding-top: 0px;
+    color: white;
+}
+
+#backTop {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 4px;
+    text-indent: -9999px;
+    cursor: pointer;
+    z-index: 999999999;
+    display: none;
+    box-sizing: content-box;
+}
+
+#backTop.white {
+    background: url(../images/uparr-48-b.png) no-repeat center center rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+}
+
+#backTop.black {
+    background: url(../images/uparr-48-w.png) no-repeat center center rgba(0, 0, 0, 0.8);
+    border: 1px solid #ccc;
+}
+
+#backTop.red {
+    background: url(../images/uparr-48-w.png) no-repeat center center #CE2B37;
+    border: 1px solid #fff;
+}
+
+#backTop.green {
+    background: url(../images/uparr-48-b.png) no-repeat center center rgba(81, 217, 187, 0.9);
+    border: 1px solid #fff;
+}
+
+.box-ofer {
+    position: relative;
+    padding: 10px;
+    width: 100%;
+}
+
+.box-vin {
+    position: relative;
+    top: 0px;
+    padding: 10px;
+}
+
+.box-vin1 {
+    position: relative;
+    top: 0px;
+    height: auto;
+    width: 100%;
+    background-color: #CE2B37;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 1.5em;
+}
+
+.box-foot {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    background-color: rgba(45, 57, 74, 1);
+    text-align: center;
+}
+
+.box-foot img {
+    display: inline-block;
+}
+
+.box-foot2 {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    top: 75px;
+    background-color: #CE2B37;
+    text-align: center;
+    padding: 55px 10px 20px 10px;
+    font-family: "Open-Sans";
+    color: white;
+    font-size: 1.5em;
+}
+
+.suna {
+    position: fixed;
+    top: 52px;
+    height: 70px;
+    width: 71px;
+    right: 0%;
+    z-index: 999999;
+}
+
+.map{
+	position: relative;
+	height: 50vh;
+	width: 100%;
+	background-color: rgba(0, 146, 70, 1);
+	border: solid 2px #CE2B37;
+
+}
+
+.contact{
+    position: relative;
+    top: 75px;
+    height: 50vh;
+    width: 100%;
+    padding: 85px 10px 20px 10px;
+    background-color:  rgba(45, 57, 74, 1);
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    font-family: "Open-Sans";
+    color: white;
+    font-size: 1.1em;
+}
+}
