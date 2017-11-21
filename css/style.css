@@ -1,22 +1,4 @@
-@charset "utf-8";
-body {
-    background-color: wheat;
-}
 
-@font-face {
-    font-family: mount;
-    src: url(font/mount.ttf)
-}
-
-.navbar {
-    background-color: #CE2B37;
-    border: 0px;
-}
-
-.navbar .navbar-brand {
-    font-family: mount;
-    color: white;
-    font-size: 1.2em;
 }
 
 .navbar-default .navbar-nav>li>a {
